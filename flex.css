@@ -44,13 +44,31 @@ h6 {
 
 .card-back {
   background-color: rgb(128, 247, 247);
-
+  overflow: hidden;
 }
 
 .back {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 20px;
+
+
+}
+
+.collum {
+  display: flex;
+  flex-direction: column;
+  width: 95px;
+  align-items: center;
+
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1in;
+  width: 80px;
 }
 
 h1 {
@@ -69,8 +87,20 @@ h3 {
   font-family: "Crafty Girls", cursive;
   font-weight: 400;
   font-style: normal;
+  font-size: small;
+  background-color: rgb(230, 166, 176);
+  padding: 2px;
+  margin: 2px;
+  border: 2px solid rgb(227, 228, 116);
+  text-align: center;
 }
 
+p {
+  font-family: "Cantarell", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-small;
+}
 
 /* Honors: styles for each card size, for example:
 .square .card-front {

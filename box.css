@@ -56,21 +56,12 @@ h4 {
   font-family: "Fuzzy Bubbles", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: rgb(253, 167, 217);
+background-color: rgb(253, 167, 217);
   border: 1px solid rgb(0, 96, 136);
   width: 100px;
   margin-left: 30px;
   padding: 2px;
   margin-bottom: 1px;
-}
-
-p {
-  font: color #326088;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: 30%;
-  font-weight: 300;
-  font-style: normal;
-  margin: 40px;
 }
 
 
@@ -89,15 +80,9 @@ p {
 
 
 
-.img {
-
-  position: absolute;
-  bottom: -10px;
-  right: 0px;
-  transform: rotate(90);
+img {
+  transform: rotate(88deg);
+  transform-origin: right;
 
 }
-
-.card-back {
-  overflow: hidden;
-}
+.card-back{ overflow:hidden;}
